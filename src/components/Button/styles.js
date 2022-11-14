@@ -1,16 +1,20 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const ButtonContainer = styled.button`
-padding: 20px;
-border: 1px solid #CDCDCC;
-background-color: #00AAF0;
-color: #FFFFFF;
-font-size: 24px ;
-font-weight: 700 ;
-flex:1 ;
+  padding: 2rem;
+  border: 1px solid #CDCDCD;
 
-&:hover{
-  opacity: 0.6 ;
-}
+  background-color: #00AAF0;
 
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 700;
+
+  flex: 1;
+
+  &:hover {
+    opacity: .6;
+
+    cursor: pointer;
+  }
 `
